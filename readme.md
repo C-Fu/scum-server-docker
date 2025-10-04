@@ -15,6 +15,12 @@ This project allows you to easily run a dedicated SCUM game server using Docker.
     ```
     (The game will be downloaded and installed on first startup.)
 
+2.  **To update the Server:**
+    ```bash
+    docker compose up -d --build --force-recreate
+    ```
+    (The game will be downloaded and updated on first startup.)
+
 ## Configuration
 
 ### Environment Variables
