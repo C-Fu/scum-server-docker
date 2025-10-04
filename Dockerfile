@@ -23,8 +23,7 @@ RUN apt update && \
       ca-certificates \
       xvfb \
       wget \
-      gnupg \
-      software-properties-common && \
+      gnupg && \
     mkdir -pm755 /etc/apt/keyrings && \
     wget -O - https://dl.winehq.org/wine-builds/winehq.key | gpg --dearmor -o /etc/apt/keyrings/winehq-archive.key && \
     wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/debian/dists/bookworm/winehq-bookworm.sources && \
