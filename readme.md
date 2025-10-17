@@ -36,6 +36,7 @@ This project allows you to easily run a dedicated SCUM game server using Docker.
     | `AdminUsers.ini`       | SteamID64 number of the user, per line      |
     | `GameUserSettings.ini` | Universal Game Settings for your users      |
     | `ServerSettings.ini`   | [Main game settings for the server, see link](https://docs.google.com/spreadsheets/d/1w_JyXbtXcwhoYMrB_OAuLLJldR1Tu3Pq8GZGRjej0J8/edit?gid=612109557#gid=612109557) |
+    | World dir location     | SCUM/SCUM/Saved/* |
 
 ## Configuration
 
