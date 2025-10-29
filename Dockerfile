@@ -20,7 +20,7 @@ RUN dpkg --add-architecture i386
 RUN apt update && \
     apt install -y \
       curl \
-      ca-certificates \
+#      ca-certificates \ #no need for debian
       xvfb \
       wget \
       gnupg && \
